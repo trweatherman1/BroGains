@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trent.brogains" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewMuscleGroups"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name=".Abs.Abs"
+            android:label="@string/title_activity_abs" >
+        </activity>
+        <activity
+            android:name=".Back.Back"
+            android:label="@string/title_activity_back" >
+        </activity>
+        <activity
+            android:name=".Biceps.Biceps"
+            android:label="@string/title_activity_biceps" >
+        </activity>
+        <activity
+            android:name=".Chest"
+            android:label="@string/title_activity_chest" >
+        </activity>
+        <activity
+            android:name=".Legs.Legs"
+            android:label="@string/title_activity_legs" >
+        </activity>
+        <activity
+            android:name=".Shoulders.Shoulders"
+            android:label="@string/title_activity_shoulders" >
+        </activity>
+        <activity
+            android:name=".Triceps.Triceps"
+            android:label="@string/title_activity_triceps" >
+        </activity>
+    </application>
+
+</manifest>
