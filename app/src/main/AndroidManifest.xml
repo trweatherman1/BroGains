@@ -48,6 +48,10 @@
             android:name=".Triceps.Triceps"
             android:label="@string/title_activity_triceps" >
         </activity>
+        <activity
+            android:name=".WorkoutList"
+            android:label="@string/title_activity_workout_list" >
+        </activity>
     </application>
 
 </manifest>

@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class ViewMuscleGroups extends Activity implements AdapterView.OnItemClickListener {
 
-    private ArrayList<String> muscles;
+    private ArrayList<String> workouts;
 
     private TextView muscleGroup;
 
@@ -43,25 +43,26 @@ public class ViewMuscleGroups extends Activity implements AdapterView.OnItemClic
 
         lvMuscles.setOnItemClickListener(this);
 
-        adapter = new CustomAdapter(this, R.layout.list_view, muscleGroup);
+        adapter = new CustomAdapter(this, R.layout.list_item, workouts);
         lvMuscles.setAdapter(adapter);
     }
 
     public void getListData(){
-        muscles = new ArrayList<String>();
-        muscles.add(AppConstraints.CHEST);
-        muscles.add(AppConstraints.BACK);
-        muscles.add(AppConstraints.LEGS);
-        muscles.add(AppConstraints.BICEPS);
-        muscles.add(AppConstraints.TRICEPS);
-        muscles.add(AppConstraints.SHOULDERS);
+        workouts = new ArrayList<>();
+        workouts.add("Chest");
+        workouts.add("Back");
+        workouts.add("Legs");
+        workouts.add("Biceps");
+        workouts.add("Triceps");
+        workouts.add("Shoulders");
+        workouts.add("Abs");
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Intent intent;
-        TextView text = (TextView) view.findViewById(R.id.textView);
-        String muscleGroupName = text.getText().toString();
+        muscleGroup = (TextView) view.findViewById(R.id.textView);
+        String muscleGroupName = muscleGroup.getText().toString();
         switch(muscleGroupName){
 
             case AppConstraints.CHEST:

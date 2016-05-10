@@ -43,11 +43,11 @@ public class CustomAdapter extends ArrayAdapter<String> {
         String workoutText = this.workouts.get(position);
 
         //Get the views from the list item XML
-        TextView songPosition = (TextView) view.findViewById(R.id.textView);
+        TextView workoutPosition = (TextView) view.findViewById(R.id.textView);
         //TextView valuePosition = (TextView) view.findViewById(R.id.textView4);
 
         //valuePosition.setText(valueText);
-        songPosition.setText(workoutText);
+        workoutPosition.setText(workoutText);
 
         return(view);
     }

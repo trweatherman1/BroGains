@@ -1,5 +1,6 @@
 package com.example.trent.brogains.Chest;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,7 +8,7 @@ import android.view.MenuItem;
 
 import com.example.trent.brogains.R;
 
-public class Chest extends AppCompatActivity {
+public class Chest extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
