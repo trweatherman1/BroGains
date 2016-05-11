@@ -12,4 +12,12 @@
     <string name="title_activity_shoulders">Shoulders</string>
     <string name="title_activity_triceps">Triceps</string>
     <string name="title_activity_workout_list">WorkoutList</string>
+    <string name="title_activity_leg__list__item">Leg_List_Item</string>
+    <string name="title_activity_view_leg_groups">ViewLegGroups</string>
+    <string name="title_activity_chest_list_item">ChestListItem</string>
+    <string name="title_activity_tricep_list_item">TricepListItem</string>
+    <string name="title_activity_shoulder_list_item">ShoulderListItem</string>
+    <string name="title_activity_back_list_item">BackListItem</string>
+    <string name="title_activity_bicep_list_item">BicepListItem</string>
+    <string name="title_activity_ab_list_item">AbListItem</string>
 </resources>

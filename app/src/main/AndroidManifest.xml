@@ -52,6 +52,10 @@
             android:name=".WorkoutList"
             android:label="@string/title_activity_workout_list" >
         </activity>
+        <activity
+            android:name=".Legs.ViewLegGroups"
+            android:label="@string/title_activity_view_leg_groups" >
+        </activity>
     </application>
 
 </manifest>
